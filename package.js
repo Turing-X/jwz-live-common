@@ -11,5 +11,6 @@ Package.onUse((api) => {
   api.use('ecmascript');
   api.use('mongo');
   api.mainModule('server.js', ['server']);
+  api.mainModule('client.js', ['client']);
   api.mainModule('main.js');
 });
